@@ -1,0 +1,86 @@
+
+body{
+    background-color:#A5B68D;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align:center;
+}
+
+#headline{
+font-weight: 600;
+font-size: 50px;
+}
+
+#paragraph{
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-size: 40px;
+}
+
+.header{
+background-color:#C1CFA1;
+color:#56694b;
+height:100%;
+width:100%;
+}
+
+.middle{
+background-color:#A5B68D;
+color:#f3efd2;
+margin-bottom:10px;
+}
+
+#h2{
+font-family: "Quicksand", sans-serif;
+font-weight:300;
+font-size: 40px;
+}
+
+#Ausbildungskarte{
+    background-color:#C1CFA1;
+    color:#56694b;
+    margin-bottom:10px;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.btn{
+    background-color:#56694b;
+    color:#f3efd2;
+}
+
+#Coding-Projekte{
+    font-family: "Quicksand", sans-serif;
+    color:#56694b;
+    font-weight:400;
+    font-size: 40px;
+}
+
+#Überschrift{
+    font-family: "Quicksand", sans-serif;
+    color:#56694b;
+    font-weight:400;
+}
+
+#Projekttext{
+    color:#56694b;
+}
+
+.container-projects{
+    background-color:#C1CFA1; 
+}
+
+.container-bottom{
+    color:#56694b;
+}
+
+.feature:hover{
+    transform: scale(1.1);
+}
+
+.footer-link{
+    color:#f3efd2
+}
