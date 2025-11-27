@@ -77,10 +77,15 @@ font-size: 40px;
     color:#56694b;
 }
 
+.API{
+    margin-top:10px;
+}
+
 .feature:hover{
     transform: scale(1.1);
 }
 
 .footer-link{
     color:#f3efd2
+
 }
