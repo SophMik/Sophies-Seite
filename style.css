@@ -43,8 +43,8 @@ font-size: 40px;
     margin-bottom:10px;
 }
 
-.img-fluid:hover{
-     transform: scale(1.1);
+.API img:hover {
+    transform: scale(1.1);
 }
 
 .card:hover{
@@ -93,4 +93,5 @@ font-size: 40px;
     color:#f3efd2
 
 }
+
 
