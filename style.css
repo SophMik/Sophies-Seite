@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 body{
     background-color:#A5B68D;
     font-family: "Quicksand", sans-serif;
@@ -99,12 +103,24 @@ font-size: 40px;
 
 }
 
-@media (hover: hover) and (pointer: fine) {
-  .card:hover,
-  .API img:hover,
-  .feature:hover {
-    transform: scale(1.1);
+/* Hover auf Touch-Geräten komplett deaktivieren */
+@media (hover: none) {
+  *:hover {
+    transform: none !important;
   }
 }
+@media (max-width: 600px) {
+  #headline {
+    font-size: 28px;
+  }
+
+  #paragraph,
+  #h2,
+  #Coding-Projekte {
+    font-size: 20px;
+  }
+}
+
+
 
 
