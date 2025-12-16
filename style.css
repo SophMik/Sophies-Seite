@@ -1,3 +1,8 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 
 body{
     background-color:#A5B68D;
@@ -92,6 +97,14 @@ font-size: 40px;
 .footer-link{
     color:#f3efd2
 
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .card:hover,
+  .API img:hover,
+  .feature:hover {
+    transform: scale(1.1);
+  }
 }
 
 
